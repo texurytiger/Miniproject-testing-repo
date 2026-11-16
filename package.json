@@ -1,0 +1,27 @@
+{
+  "name": "team3-store",
+  "version": "1.0.0",
+  "description": "Team 3 RBAC e-commerce store",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "start": "node server/index.js",
+    "dev:web": "vite",
+    "build": "vite build",
+    "db:reset": "node server/resetDb.js",
+    "test": "node --test tests/e1.test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^4.22.3",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.24.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.6",
+    "vite": "^5.4.21"
+  },
+  "private": true
+}
